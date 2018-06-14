@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Tree view</title>
+    <link rel="stylesheet" type="text/css" href="Tree.css"></link>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" style="color:white !important" href="#">Composite object view</a>
+    </nav>
+    <div class="container-fluid">
+            <div class="jumbotron">
+                    
+                    <h4>Simple y minimalista, una forma diferente de poder representar objetos complejos, pensado para usar con el patrón de diseño composite</h1>
+                </div>
+                
+                <div class="tree row" styele="overflow: auto !importan">
+                    <ul>
+                        <li>
+                            <a class="leaf root">Raiz</a>
+                            <ul>
+                                <li>
+                                    <a class="leaf">Nodo 1</a>
+                                </li>
+                                <li>
+                                    <a class="leaf">Nodo 2</a>
+                                    <ul>
+                                        <li><a class="leaf">Nodo 2.1</a></li>
+                                        <li><a class="leaf">Nodo 2.2</a></li>
+                                        <li><a class="leaf">Nodo 2.3</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="row">
+                    <h4>Interpreta objetos complejos de una manera fácil.</h4><br /><br />
+                    <h5>Maquetado</h5>
+                    <xmp>
+                            <div class="tree">
+                                    <ul>
+                                        <li>
+                                            <a class="leaf root">Raiz</a>
+                                            <ul>
+                                                <li>
+                                                    <a class="leaf">Nodo 1</a>
+                                                </li>
+                                                <li>
+                                                    <a class="leaf">Nodo 2</a>
+                                                    <ul>
+                                                        <li><a class="leaf">Nodo 2.1</a></li>
+                                                        <li><a class="leaf">Nodo 2.2</a></li>
+                                                        <li><a class="leaf">Nodo 2.3</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                    </xmp>>
+                </div> -->
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="Tree.js"></script>
+</body>
+
+</html>
